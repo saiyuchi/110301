@@ -53,8 +53,8 @@
                     playsinline
                 ></video>
                 
-                <!-- 3D 鹿模型資源 (請確認您的 assets 資料夾中有 deer.gltf 或 deer.glb) -->
-                <a-asset-item id="deer-model" src="assets/deer.gltf"></a-asset-item>
+                <!-- 3D 鹿模型資源 (已更新為您的 .glb 檔名) -->
+                <a-asset-item id="deer-model" src="assets/male_deer_animal_3d_model_free.glb"></a-asset-item>
             </a-assets>
 
             <a-marker
@@ -81,12 +81,12 @@
                     gesture-handler
                 ></a-video>
 
-                <!-- 2. 3D 鹿模型 (可依需求自行微調 position, scale, rotation) -->
+                <!-- 2. 3D 鹿模型 -->
                 <a-entity
                     id="deer"
                     gltf-model="#deer-model"
-                    scale="0.5 0.5 0.5"
-                    position="0 0.2 0.3"
+                    scale="0.2 0.2 0.2"
+                    position="0 0.2 0"
                     rotation="0 0 0"
                     class="clickable"
                     gesture-handler
